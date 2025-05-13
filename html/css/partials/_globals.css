@@ -1,0 +1,27 @@
+main h1 {
+  font-family: var(--font-heading-type);
+  font-size: var(--font-heading-lg);
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading-type);
+}
+
+p,
+a,
+li,
+span {
+  font-family: var(--font-body-type);
+}
+
+.card-green {
+  border-radius: var(--radius-card);
+  border: var(--border-stroke-green);
+  box-shadow: var(--drop-shadow-green);
+  overflow: hidden;
+  background-color: var(--color-background-light);
+}

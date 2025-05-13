@@ -1,0 +1,57 @@
+:root {
+  /* Colors */
+
+  /* Font colors */
+  --color-font-black: #000000;
+  --color-hover-green: #3fa752;
+  --color-links-blue: #0091ea;
+
+  /* Card colors */
+  --color-card-green: #3fa752;
+  --color-card-orange: #ff6f00;
+  --color-card-yellow: #f9c94c;
+
+  /* Button color */
+  --color-button-yellow: #ffd740;
+
+  /* Background colors */
+  --color-background-light: #fafafa;
+  --color-background-dark: #37474f;
+
+  /* Fonts */
+
+  --font-heading-type: "baloo 2", "sans-serif";
+  --font-body-type: "Roboto Flex", "serif";
+
+  /* Font sizes */
+
+  --font-heading-xsm: 1.125rem;
+  --font-heading-sm: 1.5rem;
+  --font-heading-md: 2rem;
+  --font-heading-lg: 2.25rem;
+  --font-heading-xl: 2.5rem;
+
+  --font-body-xsm: 0.875rem;
+  --font-body-sm: 1rem;
+  --font-body-md: 1.125rem;
+  --font-body-lg: 1.25rem;
+
+  /* Border-radius */
+
+  --radius-button: 60px;
+  --radius-card: 25px;
+  --radius-input: 10px;
+
+  /* Drop-shadow */
+
+  --drop-shadow-orange: 0px 10px 4px 0px rgba(255, 111, 0, 0.5);
+  --drop-shadow-yellow: 0px 10px 4px 0px rgba(249, 201, 76, 0.5);
+  --drop-shadow-green: 0px 10px 4px 0px rgba(63, 167, 82, 0.5);
+
+  /* Border Stroke */
+  --border-stroke-orange: 2px solid #ff6f00;
+  --border-stroke-green: 2px solid #3fa752;
+  --border-stroke-yellow: 2px solid #f9c94c;
+}
+
+/* Font weights */
