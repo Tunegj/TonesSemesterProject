@@ -1,0 +1,45 @@
+.exhibition-spaces {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.exhibition-cards {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 450px;
+}
+
+.exhibition-cards img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.exhibition-cards h2 {
+  font-size: var(--font-heading-sm);
+  margin: 5px 0px;
+}
+
+.exhibition-cards h3 {
+  font-size: var(--font-heading-xsm);
+  margin: 5px 10px;
+}
+
+.exhibition-cards p {
+  font-size: var(--font-body-xsm);
+  line-height: 1.5rem;
+  margin: 0px 10px;
+  /* text-align: center; */
+}
+
+.exhibition-cards a {
+  font-size: var(--font-body-xsm);
+  margin: 10px;
+  align-self: flex-end;
+}

@@ -55,3 +55,12 @@ summary {
   overflow: hidden;
   background-color: var(--color-background-light);
 }
+
+.exhibition-cards,
+.exhibition-card-wide {
+  border-radius: var(--radius-card);
+  border: var(--border-stroke-yellow);
+  box-shadow: var(--drop-shadow-yellow);
+  overflow: hidden;
+  background-color: var(--color-background-light);
+}
