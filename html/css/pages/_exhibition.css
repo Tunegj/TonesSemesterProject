@@ -3,10 +3,10 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  justify-content: center;
 }
 
 .exhibition-cards {
-  grid-column: span 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
