@@ -29,6 +29,7 @@ span {
 summary {
   font-family: var(--font-heading-type);
   color: var(--font-color-font-black);
+  cursor: pointer;
 }
 
 .card-green {
