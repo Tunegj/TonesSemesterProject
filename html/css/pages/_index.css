@@ -20,7 +20,6 @@
 }
 
 .index-page .card-txt p {
-  color: var(--font-color-font-black);
   font-size: var(--font-size-body-sm);
   padding: 1rem;
   flex: 1;
@@ -86,22 +85,18 @@
 }
 
 .back p {
-  font-family: var(--font-body-type);
   font-size: var(--font-body-sm);
   display: flex;
-  color: var(--font-color-font-black);
   line-height: 1.5rem;
 }
 
 .front p {
   font-size: var(--font-body-sm);
-  color: var(--font-color-font-black);
   line-height: 1.5rem;
 }
 
 .front h3 {
   font-size: var(--font-heading-sm);
-  color: var(--font-color-font-black);
   line-height: 1.5rem;
 }
 

@@ -7,6 +7,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: var(--font-heading-xl);
+    text-align: center;
   }
 
   /* HEADER */
@@ -126,6 +127,49 @@
   .index-page button {
     width: 120px;
     height: 50px;
+  }
+
+  /* EXPLORE PAGE */
+
+  summary {
+    font-size: var(--font-heading-md);
+    padding: 20px;
+  }
+
+  .card-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .explore-page .card-green,
+  .explore-page .card-orange,
+  .explore-page .card-yellow {
+    margin: 30px;
+    height: 410px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .explore-page .card-green img,
+  .explore-page .card-orange img,
+  .explore-page .card-yellow img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-green p,
+  .card-orange p,
+  .card-yellow p {
+    font-size: var(--font-body-lg);
+    padding: 1rem;
+    line-height: 2rem;
+    flex: 1;
+    display: block;
   }
 
   /* FOOTER */
@@ -254,7 +298,7 @@
     display: none;
   }
 
-  /* CARDS */
+  /* INDEX PAGE */
 
   .index-page .card-green {
     margin: 0;
@@ -310,6 +354,60 @@
   .index-page button {
     width: 250px;
     height: 50px;
+  }
+
+  /* EXPLORE PAGE */
+
+  main h1 {
+    font-family: var(--font-heading-type);
+    font-size: var(--font-heading-xl);
+    text-align: center;
+  }
+
+  summary {
+    font-size: var(--font-heading-md);
+    font-family: var(--font-heading-type);
+    color: var(--color-font-black);
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .card-green,
+  .card-orange,
+  .card-yellow {
+    /* margin: 30px; */
+    height: 410px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-body-md);
+  }
+
+  .card-green img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-orange img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-yellow img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .card-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
   }
 
   /* FOOTER */

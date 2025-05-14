@@ -1,9 +1,16 @@
 main h1 {
   font-family: var(--font-heading-type);
-  font-size: var(--font-heading-lg);
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+main p,
+a,
+h1,
+h2,
+h3 {
+  color: var(--font-color-font-black);
 }
 
 h1,
@@ -19,10 +26,31 @@ span {
   font-family: var(--font-body-type);
 }
 
+summary {
+  font-family: var(--font-heading-type);
+  color: var(--font-color-font-black);
+}
+
 .card-green {
   border-radius: var(--radius-card);
   border: var(--border-stroke-green);
   box-shadow: var(--drop-shadow-green);
+  overflow: hidden;
+  background-color: var(--color-background-light);
+}
+
+.card-orange {
+  border-radius: var(--radius-card);
+  border: var(--border-stroke-orange);
+  box-shadow: var(--drop-shadow-orange);
+  overflow: hidden;
+  background-color: var(--color-background-light);
+}
+
+.card-yellow {
+  border-radius: var(--radius-card);
+  border: var(--border-stroke-yellow);
+  box-shadow: var(--drop-shadow-yellow);
   overflow: hidden;
   background-color: var(--color-background-light);
 }

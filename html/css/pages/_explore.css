@@ -1,0 +1,61 @@
+@import url(/css/_variables.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+summary {
+  font-size: var(--font-heading-xsm-sm);
+  padding: 10px;
+}
+
+.explore-page .card-green,
+.explore-page .card-orange,
+.explore-page .card-yellow {
+  margin: 30px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+}
+
+.explore-page .card-green img,
+.explore-page .card-orange img,
+.explore-page .card-yellow img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-green p,
+.card-orange p,
+.card-yellow p {
+  font-size: var(--font-body-sm);
+  padding: 1rem;
+  flex: 1;
+  display: block;
+  justify-content: center;
+  line-height: 1.5rem;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.underline {
+  white-space: nowrap;
+  text-decoration: underline;
+}
