@@ -1,5 +1,6 @@
 main h1 {
   font-family: var(--font-heading-type);
+  font-size: var(--font-heading-sm);
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -61,6 +62,14 @@ summary {
   border-radius: var(--radius-card);
   border: var(--border-stroke-yellow);
   box-shadow: var(--drop-shadow-yellow);
+  overflow: hidden;
+  background-color: var(--color-background-light);
+}
+
+.event-cards {
+  border-radius: var(--radius-card);
+  border: var(--border-stroke-orange);
+  box-shadow: var(--drop-shadow-orange);
   overflow: hidden;
   background-color: var(--color-background-light);
 }

@@ -1,0 +1,36 @@
+.event-cards {
+  margin: 30px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-cards img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  display: block;
+}
+
+.event-cards h2 {
+  text-align: center;
+  font-size: var(--font-heading-xsm-sm);
+  padding: 0.7rem;
+  margin: 5px;
+}
+
+.event-cards p {
+  font-size: var(--font-size-body-sm);
+  padding: 0.7rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5rem;
+}
+
+.event-cards a {
+  font-size: var(--font-body-xsm);
+  padding: 10px;
+  margin-top: auto;
+}

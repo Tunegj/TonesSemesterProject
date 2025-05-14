@@ -15,10 +15,6 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-main h1 {
-  font-size: var(--font-heading-md);
-}
-
 summary {
   font-size: var(--font-heading-xsm-sm);
   padding: 10px;
