@@ -94,21 +94,22 @@
 }
 
 .front p {
-  font-family: var(--font-body-type);
   font-size: var(--font-body-sm);
   color: var(--font-color-font-black);
   line-height: 1.5rem;
 }
 
 .front h3 {
-  font-family: var(--font-heading-type);
   font-size: var(--font-heading-sm);
   color: var(--font-color-font-black);
   line-height: 1.5rem;
 }
 
-.full-text {
-  display: none;
+.index-page .robot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .robot-wave {
@@ -116,7 +117,15 @@
   border-radius: 80%;
 }
 
-.robot button {
+.index-page button {
   background-color: var(--color-button-yellow);
   border-radius: var(--radius-button);
+  width: 80px;
+  height: 30px;
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
+
+.card-txt > p.full-text {
+  display: none;
 }
