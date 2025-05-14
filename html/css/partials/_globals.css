@@ -3,6 +3,7 @@ main h1 {
   font-size: var(--font-heading-lg);
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1,

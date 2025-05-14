@@ -25,16 +25,17 @@
 
   /* Font sizes */
 
-  --font-heading-xsm: 1.125rem;
-  --font-heading-sm: 1.5rem;
-  --font-heading-md: 2rem;
-  --font-heading-lg: 2.25rem;
-  --font-heading-xl: 2.5rem;
+  --font-heading-xsm: 1.125rem; /* 18px */
+  --font-heading-xsm-sm: 1.25rem; /* 20px */
+  --font-heading-sm: 1.5rem; /* 24px */
+  --font-heading-md: 2rem; /* 32px */
+  --font-heading-lg: 2.25rem; /* 36px */
+  --font-heading-xl: 2.5rem; /* 40px */
 
-  --font-body-xsm: 0.875rem;
-  --font-body-sm: 1rem;
-  --font-body-md: 1.125rem;
-  --font-body-lg: 1.25rem;
+  --font-body-xsm: 0.875rem; /* 14px */
+  --font-body-sm: 1rem; /* 16px */
+  --font-body-md: 1.125rem; /* 18px */
+  --font-body-lg: 1.25rem; /* 20px */
 
   /* Border-radius */
 

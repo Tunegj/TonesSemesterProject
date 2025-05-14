@@ -70,9 +70,16 @@ footer h3 {
 footer a,
 p {
   color: var(--color-background-light);
-  font-family: var(--font-body-type);
   font-size: var(--font-body-xsm);
+}
+
+.footer-contact,
+.footer-explore,
+.legal,
+.social-media,
+.sponsors {
   line-height: 1.5rem;
+  padding: 20px;
 }
 
 .sponsors img {
