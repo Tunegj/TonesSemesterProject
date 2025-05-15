@@ -1,15 +1,15 @@
-@import url("/css/partials/_resets.css");
-@import url("/css/partials/_variables.css");
+@import url("partials/resets.css");
+@import url("partials/variables.css");
 
-@import url("partials/_globals.css");
-@import url("partials/_header.css");
-@import url("partials/_footer.css");
+@import url("partials/globals.css");
+@import url("partials/header.css");
+@import url("partials/footer.css");
 
-@import url("pages/_index.css");
-@import url("pages/_explore.css");
-@import url("pages/_exhibition.css");
-@import url("pages/_events.css");
-@import url("pages/_visit.css");
-@import url("pages/_construction.css");
+@import url("pages/index.css");
+@import url("pages/explore.css");
+@import url("pages/exhibition.css");
+@import url("pages/events.css");
+@import url("pages/visit.css");
+@import url("pages/construction.css");
 
-@import url("partials/_media-queries.css");
+@import url("partials/media-queries.css");
