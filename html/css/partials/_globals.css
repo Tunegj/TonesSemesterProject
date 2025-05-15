@@ -1,3 +1,7 @@
+main {
+  padding-bottom: 100px;
+}
+
 main h1 {
   font-family: var(--font-heading-type);
   font-size: var(--font-heading-sm);
@@ -73,4 +77,11 @@ summary {
   box-shadow: var(--drop-shadow-orange);
   overflow: hidden;
   background-color: var(--color-background-light);
+}
+
+summary:focus,
+a:focus,
+button:focus {
+  outline: 2px solid var(--accent-color-orange);
+  outline-offset: 2px;
 }

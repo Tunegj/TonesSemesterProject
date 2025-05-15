@@ -10,7 +10,6 @@
 main h1 {
   font-size: var(--font-heading-xl);
   font-weight: bold;
-  margin-bottom: 10px;
 }
 
 main h2 {

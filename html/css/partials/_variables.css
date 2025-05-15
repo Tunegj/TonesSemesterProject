@@ -54,6 +54,7 @@
   --border-stroke-orange: 2px solid #ff6f00;
   --border-stroke-green: 2px solid #3fa752;
   --border-stroke-yellow: 2px solid #f9c94c;
-}
 
-/* Font weights */
+  /* Accent Color */
+  --accent-color-orange: #ff6f00;
+}
