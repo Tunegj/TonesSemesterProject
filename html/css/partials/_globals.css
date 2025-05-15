@@ -23,7 +23,8 @@ h3 {
 p,
 a,
 li,
-span {
+span,
+address {
   font-family: var(--font-body-type);
 }
 

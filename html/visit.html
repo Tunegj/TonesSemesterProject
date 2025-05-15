@@ -39,19 +39,21 @@
         <label for="menu-toggle" class="hamburger">
           <i class="fa-solid fa-bars"></i>
         </label>
-        <div class="nav-links">
-          <a href="index.html">Home</a>
-          <a href="explore.html">Explore</a>
-          <a href="exhibition.html">Exhibition Spaces</a>
-          <a href="events.html">Special Events & Exhibitions</a>
-          <a href="visit.html">Visit</a>
-        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="exhibition.html">Exhibition Spaces</a></li>
+          <li><a href="events.html">Special Events & Exhibitions</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
         <div class="search-container">
+          <label for="search-bar" aria-label="search"></label>
           <input
             type="text"
             name="search bar"
             placeholder="Search..."
             class="search-bar"
+            id="search-bar"
           />
         </div>
       </nav>
@@ -82,50 +84,62 @@
       </section>
     </main>
     <footer>
-      <div class="footer-contact">
-        <h3>Contact</h3>
+      <address class="footer-contact">
+        <h2>Contact</h2>
         <p>1425 Morty Road, Madison, WI</p>
         <p>+ 608 735 882</p>
         <p>CSMuseum@yahoo.com</p>
         <a href="visit.html">Opening Hours</a>
-      </div>
-      <div class="footer-explore">
-        <h3>Explore</h3>
+      </address>
+      <section class="footer-explore">
+        <h2>Explore</h2>
         <a href="exhibition.html">Exhibition Spaces</a>
         <a href="construction.html">Young Stars Club</a>
         <a href="events.html">Holiday & Weekend Events</a>
-      </div>
-      <div class="legal">
-        <h3>Legal</h3>
+      </section>
+      <section class="legal">
+        <h2>Legal</h2>
         <a href="construction.html">Privacy Policy</a>
         <a href="construction.html">Terms of Use</a>
         <a href="construction.html">Cookie Preferences</a>
-      </div>
-      <div class="social-media">
-        <h3>Follow Us:</h3>
+      </section>
+      <section class="social-media">
+        <h2>Follow Us:</h2>
         <div class="social-icon">
-          <a href="https://facebook.com">
+          <a href="https://facebook.com" aria-label="Facebook">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="https://x.com/">
+          <a href="https://x.com/" aria-label="X (formerly Twitter)">
             <i class="fa-brands fa-x-twitter"></i>
           </a>
-          <a href="https://instagram.com">
+          <a href="https://instagram.com" aria-label="Instagram">
             <i class="fa-brands fa-instagram"></i>
           </a>
         </div>
         <a href="construction.html">Sign Up For Our Newsletter</a>
-      </div>
-      <div class="sponsors">
-        <h3>Our Sponsors</h3>
+      </section>
+      <section class="sponsors">
+        <h2>Our Sponsors</h2>
         <div class="sponsor-logo">
-          <img src="/icons/sponsor1_transparent.png" alt="sponsor logo" />
-          <img src="/icons/sponsor2_transparent.png" alt="sponsor logo" />
-          <img src="/icons/sponsor3_transparent.png" alt="sponsor logo" />
-          <img src="/icons/Sponsor4_transparent.png" alt="sponsor logo" />
+          <img
+            src="/icons/sponsor1_transparent.png"
+            alt="sponsor logo for Science For Everyone"
+          />
+          <img
+            src="/icons/sponsor2_transparent.png"
+            alt="sponsor logo for The Youth Foundation"
+          />
+          <img
+            src="/icons/sponsor3_transparent.png"
+            alt="sponsor logo for Young Entrepeneurs Foundation"
+          />
+          <img
+            src="/icons/Sponsor4_transparent.png"
+            alt="sponsor logo The National Researchers Fund"
+          />
         </div>
         <a href="construction.html">Want to sponsor us?</a>
-      </div>
+      </section>
     </footer>
   </body>
 </html>

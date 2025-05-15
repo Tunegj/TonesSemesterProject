@@ -1,0 +1,24 @@
+.construction {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main h1 {
+  font-size: var(--font-heading-xl);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main h2 {
+  font-size: var(--font-heading-sm);
+  margin-top: 10px;
+}
+.construction-icon {
+  font-size: 150px;
+  color: #f1a208;
+  margin-bottom: 10px;
+}

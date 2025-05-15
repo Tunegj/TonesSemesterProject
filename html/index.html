@@ -38,19 +38,21 @@
         <label for="menu-toggle" class="hamburger">
           <i class="fa-solid fa-bars"></i>
         </label>
-        <div class="nav-links">
-          <a href="index.html">Home</a>
-          <a href="explore.html">Explore</a>
-          <a href="exhibition.html">Exhibition Spaces</a>
-          <a href="events.html">Special Events & Exhibitions</a>
-          <a href="visit.html">Visit</a>
-        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="exhibition.html">Exhibition Spaces</a></li>
+          <li><a href="events.html">Special Events & Exhibitions</a></li>
+          <li><a href="visit.html">Visit</a></li>
+        </ul>
         <div class="search-container">
+          <label for="search-bar" aria-label="search"></label>
           <input
             type="text"
             name="search bar"
             placeholder="Search..."
             class="search-bar"
+            id="search-bar"
           />
         </div>
       </nav>
@@ -59,7 +61,10 @@
       <h1>Fun with science</h1>
       <section class="cards">
         <article class="card-green">
-          <img src="/img/index-card-1.jpg" alt="child with VR headset" />
+          <img
+            src="/img/index-card-1.jpg"
+            alt="a child is looking through VR glasses"
+          />
           <div class="card-txt">
             <p>
               Come join us at the Community Science Museum where we’re committed
@@ -69,7 +74,7 @@
         </article>
         <article class="card-green">
           <label class="flip-card" tabindex="0">
-            <input type="checkbox" id="flip-card" class="flip-checkbox" />
+            <input type="checkbox" class="flip-checkbox" />
             <div class="flip-content">
               <div class="front">
                 <h2>Did you know?</h2>
@@ -87,7 +92,10 @@
           </label>
         </article>
         <article class="card-green">
-          <img src="/img/index-card-2.jpg" alt="" />
+          <img
+            src="/img/index-card-2.jpg"
+            alt="Close-up of two hands; one tilting a small flask of bright green liquid, the other holding a test tube of blue liquid, both pouring into an Erlenmeyer flask partially filled with red solution"
+          />
           <div class="card-txt">
             <p>
               Over the course of human history, science has developed from our
@@ -102,7 +110,7 @@
         </article>
         <article class="card-green">
           <label class="flip-card" tabindex="0">
-            <input type="checkbox" id="flip-card" class="flip-checkbox" />
+            <input type="checkbox" class="flip-checkbox" />
             <div class="flip-content">
               <div class="front">
                 <h2>Did you know?</h2>
@@ -120,7 +128,10 @@
           </label>
         </article>
         <article class="card-green">
-          <img src="/img/index-card-3.jpg" alt="" />
+          <img
+            src="/img/index-card-3.jpg"
+            alt="A small child in a white lab coat is using a pipette to drip some green fluids into an Erlenmeyer flask that is partially filled with green fluids "
+          />
           <div class="card-txt">
             <p>
               The aim of our museum is to create a space where everyone can
@@ -135,7 +146,7 @@
         </article>
         <article class="card-green">
           <label class="flip-card" tabindex="0">
-            <input type="checkbox" id="flip-card" class="flip-checkbox" />
+            <input type="checkbox" class="flip-checkbox" />
             <div class="flip-content">
               <div class="front">
                 <h2>Did you know?</h2>
@@ -153,7 +164,10 @@
           </label>
         </article>
         <article class="card-green">
-          <img src="/img/index-card-4.jpg" alt="" />
+          <img
+            src="/img/index-card-4.jpg"
+            alt="A young child in a white lab coat and protective goggles is looking at a small metal bucket emitting white vapor"
+          />
           <div class="card-txt">
             <p>
               We believe science should not be confined to the textbook, but
@@ -168,7 +182,7 @@
         </article>
         <article class="card-green">
           <label class="flip-card" tabindex="0">
-            <input type="checkbox" id="flip-card" class="flip-checkbox" />
+            <input type="checkbox" class="flip-checkbox" />
             <div class="flip-content">
               <div class="front">
                 <h2>Did you know?</h2>
@@ -186,7 +200,10 @@
           </label>
         </article>
         <article class="card-green">
-          <img src="/img/index-card-5.jpg" alt="" />
+          <img
+            src="/img/index-card-5.jpg"
+            alt="The skeleton of a mammoth is standing in an exhibit room, with display cases behind it"
+          />
           <div class="card-txt">
             <p>
               Many of these exhibits are designed for you to interact with and
@@ -200,61 +217,81 @@
           </div>
         </article>
         <div class="robot">
-          <video class="robot-wave" autoplay loop muted playsinline>
+          <video
+            class="robot-wave"
+            aria-label="Robot waving"
+            aria-hidden="true"
+            autoplay
+            loop
+            muted
+            playsinline
+          >
             <source src="/Animation - 1745676422880.webm" type="video/webm" />
             <source src="/Animation-1745676422880.mp4" type="video/mp4" />
             <source src="/Animation-1745676422880.ogg" type="video/ogg" />
             Your browser doesn’t support HTML5 video.
           </video>
-          <button>Explore</button>
+          <a href="explore.html" class="explore-btn">Explore</a>
         </div>
       </section>
     </main>
     <footer>
-      <div class="footer-contact">
-        <h3>Contact</h3>
+      <address class="footer-contact">
+        <h2>Contact</h2>
         <p>1425 Morty Road, Madison, WI</p>
         <p>+ 608 735 882</p>
         <p>CSMuseum@yahoo.com</p>
         <a href="visit.html">Opening Hours</a>
-      </div>
-      <div class="footer-explore">
-        <h3>Explore</h3>
+      </address>
+      <section class="footer-explore">
+        <h2>Explore</h2>
         <a href="exhibition.html">Exhibition Spaces</a>
         <a href="construction.html">Young Stars Club</a>
         <a href="events.html">Holiday & Weekend Events</a>
-      </div>
-      <div class="legal">
-        <h3>Legal</h3>
+      </section>
+      <section class="legal">
+        <h2>Legal</h2>
         <a href="construction.html">Privacy Policy</a>
         <a href="construction.html">Terms of Use</a>
         <a href="construction.html">Cookie Preferences</a>
-      </div>
-      <div class="social-media">
-        <h3>Follow Us:</h3>
+      </section>
+      <section class="social-media">
+        <h2>Follow Us:</h2>
         <div class="social-icon">
-          <a href="https://facebook.com">
+          <a href="https://facebook.com" aria-label="Facebook">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="https://x.com/">
+          <a href="https://x.com/" aria-label="X (formerly Twitter)">
             <i class="fa-brands fa-x-twitter"></i>
           </a>
-          <a href="https://instagram.com">
+          <a href="https://instagram.com" aria-label="Instagram">
             <i class="fa-brands fa-instagram"></i>
           </a>
         </div>
         <a href="construction.html">Sign Up For Our Newsletter</a>
-      </div>
-      <div class="sponsors">
-        <h3>Our Sponsors</h3>
+      </section>
+      <section class="sponsors">
+        <h2>Our Sponsors</h2>
         <div class="sponsor-logo">
-          <img src="/icons/sponsor1_transparent.png" alt="sponsor logo" />
-          <img src="/icons/sponsor2_transparent.png" alt="sponsor logo" />
-          <img src="/icons/sponsor3_transparent.png" alt="sponsor logo" />
-          <img src="/icons/Sponsor4_transparent.png" alt="sponsor logo" />
+          <img
+            src="/icons/sponsor1_transparent.png"
+            alt="sponsor logo for Science For Everyone"
+          />
+          <img
+            src="/icons/sponsor2_transparent.png"
+            alt="sponsor logo for The Youth Foundation"
+          />
+          <img
+            src="/icons/sponsor3_transparent.png"
+            alt="sponsor logo for Young Entrepeneurs Foundation"
+          />
+          <img
+            src="/icons/Sponsor4_transparent.png"
+            alt="sponsor logo The National Researchers Fund"
+          />
         </div>
         <a href="construction.html">Want to sponsor us?</a>
-      </div>
+      </section>
     </footer>
   </body>
 </html>
