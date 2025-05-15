@@ -30,7 +30,7 @@ summary {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  line-height: 1.5rem;
+  line-height: 1rem;
 }
 
 .card-link {
