@@ -12,7 +12,7 @@ main h1 {
   font-weight: bold;
 }
 
-main h2 {
+main .construction h2 {
   font-size: var(--font-heading-sm);
   margin-top: 10px;
   color: var(--color-background-light);
