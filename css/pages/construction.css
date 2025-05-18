@@ -1,5 +1,5 @@
 .construction {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,6 +15,8 @@ main h1 {
 main h2 {
   font-size: var(--font-heading-sm);
   margin-top: 10px;
+  color: var(--color-background-light);
+  margin-bottom: 40px;
 }
 .construction-icon {
   font-size: 150px;
