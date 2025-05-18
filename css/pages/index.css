@@ -4,6 +4,7 @@
   margin: 30px;
   height: 200px;
   display: flex;
+  background-color: var(--color-background-light);
 }
 
 .index-page .card-green img {
@@ -76,11 +77,20 @@
   transform: rotateY(180deg);
 }
 
+.card-green .front h2,
+.card-green .back h2 {
+  margin-top: 30px;
+}
+
 .back p,
 .front p {
   font-size: var(--font-body-sm);
   display: flex;
   line-height: 1.5rem;
+}
+
+.front p {
+  text-align: center;
 }
 
 .index-page .robot {
@@ -92,7 +102,7 @@
 }
 
 .robot-wave {
-  background-color: var(--color-background-light);
+  background-color: var(--color-background-dark);
   border-radius: 80%;
 }
 
@@ -119,6 +129,7 @@
 
 .contact-btn {
   margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 .card-txt > p.full-text {

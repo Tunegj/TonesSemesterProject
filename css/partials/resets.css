@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: "baloo 2", "roboto flex", sans-serif, serif;
 }
+
+main {
+  padding-bottom: 0;
+}

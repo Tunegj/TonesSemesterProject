@@ -4,7 +4,6 @@
   /* Global */
 
   main h1 {
-    margin-top: 40px;
     margin-bottom: 40px;
     font-size: var(--font-heading-xl);
     text-align: center;
@@ -351,7 +350,6 @@
 
   main h1 {
     font-size: var(--font-heading-xxl);
-    margin-top: 50px;
     margin-bottom: 50px;
   }
 
@@ -470,11 +468,15 @@
     padding: 0 1.5rem 1.5rem;
   }
 
+  .card-green .front h2,
+  .card-green .back h2 {
+    font-size: var(--font-heading-md);
+  }
+
   .back p,
   .front p {
     font-size: var(--font-body-lg);
     display: flex;
-
     line-height: 1.5rem;
   }
 

@@ -1,12 +1,12 @@
 /* FOOTER */
 footer {
   width: 100%;
-  background-color: var(--color-background-dark);
-  color: var(--color-background-light);
+  background-color: var(--color-background-light);
+  color: var(--color-font-black);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 .footer-contact {
@@ -74,7 +74,7 @@ footer h2 {
 footer a,
 p,
 address {
-  color: var(--color-background-light);
+  color: var(--color-font-black);
   font-size: var(--font-body-xsm);
 }
 

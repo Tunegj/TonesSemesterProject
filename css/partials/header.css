@@ -43,7 +43,7 @@ nav {
   justify-content: space-between;
   position: relative;
   background-color: var(--color-background-dark);
-  height: 60px;
+  height: 80px;
   width: 100%;
   padding: 20px;
 }
