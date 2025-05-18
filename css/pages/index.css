@@ -130,6 +130,7 @@
 .contact-btn {
   margin-top: 15px;
   margin-bottom: 40px;
+  color: var(--color-background-light);
 }
 
 .card-txt > p.full-text {
