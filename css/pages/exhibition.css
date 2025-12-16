@@ -1,3 +1,15 @@
+.exhibition-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.exhibition-filters button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
 .exhibition-spaces {
   display: flex;
   flex-direction: column;
