@@ -28,6 +28,7 @@ Improvements made:
 Clone the repo:
 ```bash
 git clone https://github.com/Tunegj/TonesSemesterProject
+```
 
 No dependencies are required.
 
