@@ -1,7 +1,5 @@
 # Community Science Museum - Semester Project 1
 
-```md
-
 <img width="1418" height="913" alt="musuem" src="https://github.com/user-attachments/assets/b97c9bc9-255e-48f1-87e4-63ad04cb686f" />
 
 A museum websote created as Semester Project 1 for the Fronted Development programme at Noroff.
@@ -26,6 +24,7 @@ Improvements made:
  ### Installing
 
 Clone the repo:
+
 ```bash
 git clone https://github.com/Tunegj/TonesSemesterProject
 ```
